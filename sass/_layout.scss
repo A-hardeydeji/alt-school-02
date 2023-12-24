@@ -1,0 +1,83 @@
+.main {
+	display: flex;
+	margin-top: 1.5rem;
+}
+h1 {
+	font-size: 2rem;
+
+	margin-bottom: 1.5rem;
+	text-shadow: 1px -2px #00000061;
+}
+h2 {
+	margin-top: 3rem;
+}
+.one {
+	background: transparent;
+	border-radius: 50%;
+	border: 1px solid #548bc5;
+	display: inline-block;
+	line-height: 27px;
+	margin-right: 0.5rem;
+	text-align: center;
+	width: 27px;
+}
+
+.basic-name {
+	display: flex;
+	margin-top: 1.2rem;
+	justify-content: space-between;
+	&-jane {
+		background-color: #edeff2;
+		display: block;
+		width: 100%;
+		padding: 0.5rem 1rem;
+		margin-top: 0.5rem;
+		font-size: 1.3rem;
+	}
+	&-one {
+		width: 48%;
+	}
+}
+.basic-mail {
+	margin-top: 1.2rem;
+	margin-bottom: 3rem;
+}
+.basic-card {
+	margin-top: 1.5rem;
+}
+.basic-btn {
+	width: 100%;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	background-color: #038e7d;
+	border: none;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 3%;
+}
+.help {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+.bitmap {
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+}
+.bitmap > p {
+	font-size: 1.2rem;
+}
+.bitmap-img {
+	border-radius: 50%;
+}
+.stripe {
+	text-align: center;
+	background-color: #566473;
+	padding: 0.5rem 1rem;
+	width: 27%;
+	margin: 2rem auto;
+	color: white;
+}

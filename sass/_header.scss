@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+    
+	border-bottom: 2px solid#f5f7fa;
+	margin: 0 2rem;
+	align-items: center;
+	padding: 1.5rem 0;
+	font-weight: bolder;
+	&-logo-img {
+		width: 80%;
+	}
+}
+.header-lists {
+	display: flex;
+	list-style: none;
+	font-size: 1rem;
+	align-items: center;
+	&-items + &-items {
+		margin-left: 3rem;
+	}
+	&-items:last-child {
+		border: 1px solid black;
+		padding: 0.5rem 0.8rem;
+		border-radius: 5px;
+	}
+}
